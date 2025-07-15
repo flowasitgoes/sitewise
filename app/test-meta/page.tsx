@@ -9,9 +9,9 @@ export const metadata: Metadata = {
     type: 'website',
     images: [
       {
-        url: '/meta-og-thumbnail.png',
-        width: 1200,
-        height: 630,
+        url: 'https://conflux-tech.com/wp-content/uploads/2025/07/ChatGPT-Image-2025年7月15日-下午07_28_29.jpg',
+        width: 1024,
+        height: 1024,
         alt: 'Sitewise Design Agency - 專業網站建置服務',
       },
     ],
@@ -20,7 +20,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Meta 图片测试 - Sitewise',
     description: '测试 Open Graph 和 Twitter 图片显示',
-    images: ['/meta-og-thumbnail.png'],
+    images: ['https://conflux-tech.com/wp-content/uploads/2025/07/ChatGPT-Image-2025年7月15日-下午07_28_29.jpg'],
   },
 }
 
@@ -35,14 +35,14 @@ export default function TestMetaPage() {
             <h2 className="text-2xl font-semibold mb-4">当前 Meta 图片</h2>
             <div className="border-2 border-dashed border-gray-300 rounded-lg p-4">
               <img 
-                src="/meta-og-thumbnail.png" 
+                src="https://conflux-tech.com/wp-content/uploads/2025/07/ChatGPT-Image-2025年7月15日-下午07_28_29.jpg" 
                 alt="Meta OG Thumbnail" 
                 className="max-w-full h-auto rounded"
                 style={{ maxHeight: '400px' }}
               />
             </div>
             <p className="text-sm text-gray-600 mt-4">
-              图片路径: /meta-og-thumbnail.png
+              图片路径: https://conflux-tech.com/wp-content/uploads/2025/07/ChatGPT-Image-2025年7月15日-下午07_28_29.jpg
             </p>
           </div>
 
@@ -94,15 +94,15 @@ export default function TestMetaPage() {
 {`<meta property="og:title" content="Meta 图片测试 - Sitewise" />
 <meta property="og:description" content="测试 Open Graph 和 Twitter 图片显示" />
 <meta property="og:type" content="website" />
-<meta property="og:image" content="/meta-og-thumbnail.png" />
-<meta property="og:image:width" content="1200" />
-<meta property="og:image:height" content="630" />
+<meta property="og:image" content="https://conflux-tech.com/wp-content/uploads/2025/07/ChatGPT-Image-2025年7月15日-下午07_28_29.jpg" />
+<meta property="og:image:width" content="1024" />
+<meta property="og:image:height" content="1024" />
 <meta property="og:image:alt" content="Sitewise Design Agency - 專業網站建置服務" />
 
 <meta name="twitter:card" content="summary_large_image" />
 <meta name="twitter:title" content="Meta 图片测试 - Sitewise" />
 <meta name="twitter:description" content="测试 Open Graph 和 Twitter 图片显示" />
-<meta name="twitter:image" content="/meta-og-thumbnail.png" />`}
+<meta name="twitter:image" content="https://conflux-tech.com/wp-content/uploads/2025/07/ChatGPT-Image-2025年7月15日-下午07_28_29.jpg" />`}
               </pre>
             </div>
           </div>
