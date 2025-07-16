@@ -45,9 +45,10 @@ export default function Component() {
           target: "剛開業或經營初期的小型商家",
           description: "想用最小預算快速建立品牌線上門面，無需太多自訂功能或動態更新",
           features: [
+            "Logo 企業識別設計",
+            "行銷文案撰寫與優化",
             "RWD 響應式設計、手機優化",
             "精選圖片（8 張高質感照片 + 1 個影片）",
-            "基礎 SEO（標題、描述設定）",
             "Google Map / FB 串接",
             "上線協助與基本教學",
             "專屬網域名稱與主機空間",
@@ -60,6 +61,9 @@ export default function Component() {
           target: "已有一定客群的商家",
           description: "希望網站能更完整展示菜單、空間與活動資訊，並具備基本的社群串接功能",
           features: [
+            "Logo 企業識別設計",
+            "行銷文案撰寫與優化",
+            "網站版型與視覺設計",
             "RWD 響應式設計、手機優化",
             "精選圖片（12 張高質感照片 + 2 個影片）",
             "基礎 SEO（標題、描述設定）",
@@ -76,6 +80,10 @@ export default function Component() {
           target: "重視品牌形象的業者",
           description: "透過更豐富的頁面結構與圖文內容，強化顧客印象與搜尋曝光",
           features: [
+            "Logo 企業識別設計",
+            "行銷文案撰寫與優化",
+            "網站版型與視覺設計",
+            "客製多功能程式碼",
             "RWD 響應式設計、手機優化",
             "精選圖片（15 張高質感照片 + 3 個影片）",
             "基礎 SEO（標題、描述設定）",
@@ -93,6 +101,10 @@ export default function Component() {
           target: "重視品牌價值與視覺表現",
           description: "透過專業攝影與影片呈現，建立獨特線上形象、吸引媒體與合作機會",
           features: [
+            "Logo 企業識別設計",
+            "行銷文案撰寫與優化",
+            "網站版型與視覺設計",
+            "客製多功能程式碼",
             "RWD 響應式設計、手機優化",
             "精選圖片（20 張高質感照片 + 3-5 個影片）",
             "團隊現場攝影、影片製作",
@@ -171,9 +183,10 @@ export default function Component() {
           description:
             "Build your brand's online presence with minimal budget, no need for extensive custom features or dynamic updates",
           features: [
+            "Logo & Corporate Identity Design",
+            "Marketing Copywriting & Optimization",
             "RWD Responsive Design & Mobile Optimization",
             "Curated Images (8 high-quality photos + 1 video)",
-            "Basic SEO (Title & Description Setup)",
             "Google Map / FB Integration",
             "Launch Assistance & Basic Training",
             "Dedicated Domain Name & Hosting Space",
@@ -187,6 +200,9 @@ export default function Component() {
           description:
             "Comprehensive website showcasing menus, spaces, and event information with basic social media integration",
           features: [
+            "Logo & Corporate Identity Design",
+            "Marketing Copywriting & Optimization",
+            "Crafted  Visual Design",
             "RWD Responsive Design & Mobile Optimization",
             "Curated Images (12 high-quality photos + 2 videos)",
             "Basic SEO (Title & Description Setup)",
@@ -203,6 +219,10 @@ export default function Component() {
           target: "Businesses focused on brand image",
           description: "Strengthen customer impression and search visibility through richer page structure and content",
           features: [
+            "Logo & Corporate Identity Design",
+            "Marketing Copywriting & Optimization",
+            "Crafted  Visual Design",
+            "Custom Multi-functional Code",
             "RWD Responsive Design & Mobile Optimization",
             "Curated Images (15 high-quality photos + 3 videos)",
             "Basic SEO (Title & Description Setup)",
@@ -221,6 +241,10 @@ export default function Component() {
           description:
             "Create unique online image through professional photography and video production, attracting media and partnership opportunities",
           features: [
+            "Logo & Corporate Identity Design",
+            "Marketing Copywriting & Optimization",
+            "Crafted  Visual Design",
+            "Custom Multi-functional Code",
             "RWD Responsive Design & Mobile Optimization",
             "Curated Images (20 high-quality photos + 3-5 videos)",
             "On-site Photography & Video Production by Team",
@@ -248,7 +272,7 @@ export default function Component() {
         consultNow: "Consult Now",
       },
       cta: {
-        title: "Don't Worry About Technical Knowledge",
+        title: "Sincerely Yours",
         description:
           "Sitewise will guide you step by step to get online. You can ask questions anytime during the process! Let us help you create your unique online brand image",
         emailConsult: "Email Consultation",
@@ -293,7 +317,7 @@ export default function Component() {
     {
       name: "Pro",
       subtitle: t.plans.pro.subtitle,
-      price: "55,000",
+      price: "60,000",
       target: t.plans.pro.target,
       description: t.plans.pro.description,
       pages: "6–10",
@@ -306,7 +330,7 @@ export default function Component() {
     {
       name: "Branding",
       subtitle: t.plans.branding.subtitle,
-      price: "70,000",
+      price: "72,000",
       target: t.plans.branding.target,
       description: t.plans.branding.description,
       pages: "10–15",
