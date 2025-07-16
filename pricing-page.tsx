@@ -47,6 +47,7 @@ export default function Component() {
           features: [
             "Logo 企業識別設計",
             "行銷文案撰寫與優化",
+            "一站式網站架構(SPA)、滾動特效",
             "RWD 響應式設計、手機優化",
             "精選圖片（8 張高質感照片 + 1 個影片）",
             "Google Map / FB 串接",
@@ -185,6 +186,7 @@ export default function Component() {
           features: [
             "Logo & Corporate Identity Design",
             "Marketing Copywriting & Optimization",
+            "Single Page Application (SPA)",
             "RWD Responsive Design & Mobile Optimization",
             "Curated Images (8 high-quality photos + 1 video)",
             "Google Map / FB Integration",
